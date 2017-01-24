@@ -1,11 +1,12 @@
-"""
-This is the "example" module.
+def test_doctest():
+    """
+    This is the "example" module.
 
-The example module supplies one function, factorial().  For example,
+    The example module supplies one function, factorial().  For example,
 
->>> factorial(5)
-120
-"""
+    >>> factorial(5)
+    120
+    """
 
 def factorial(n):
     """Return the factorial of n, an exact integer >= 0.
